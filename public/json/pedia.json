@@ -1,0 +1,103 @@
+{
+    "topList": [{"id":"top001","name":"水龟","tType": "waterTurtle"},{"id":"top002","name":"半水龟","tType":"halfWaterTurtle"},{"id":"top003","name":"陆龟","tType":"tortoises"},{"id":"top004","name":"海龟","tType":"seaTurtles"}],
+    "allList": {
+        "classlist": [{"id":"tClass001","name":"热门","tClass": "hot"},{"id":"tClass002","name":"巴西脸","tClass": "baxi"},{"id":"tClass003","name":"蛋龟","tClass": "egg"},{"id":"tClass004","name":"鳄龟","tClass": "Snapping"}],
+        "detailList": [{
+            "id": "h001",
+            "name": "窄桥蛋龟",
+            "tType": "waterTurtle",
+            "tClass": "hot"
+        },{
+            "id": "h002",
+            "name": "头盔蛋龟",
+            "tType": "waterTurtle",
+            "tClass": "hot"
+        },{
+            "id": "h003",
+            "name": "真鳄龟",
+            "tType": "waterTurtle",
+            "tClass": "hot"
+        },{
+            "id": "b001",
+            "name": "密西西比红耳龟",
+            "tType": "waterTurtle",
+            "tClass": "baxi"
+        },{
+            "id": "b002",
+            "name": "大河甜甜圈",
+            "tType": "waterTurtle",
+            "tClass": "baxi"
+        },{
+            "id": "b003",
+            "name": "东部锦龟",
+            "tType": "waterTurtle",
+            "tClass": "baxi"
+        },{
+            "id": "b004",
+            "name": "西部锦龟",
+            "tType": "waterTurtle",
+            "tClass": "baxi"
+        },{
+            "id": "b005",
+            "name": "南部锦龟",
+            "tType": "waterTurtle",
+            "tClass": "baxi"
+        },{
+            "id": "b006",
+            "name": "中部锦龟",
+            "tType": "waterTurtle",
+            "tClass": "baxi"
+        },{
+            "id": "e001",
+            "name": "头盔泥龟",
+            "tType": "waterTurtle",
+            "tClass": "egg"
+        },{
+            "id": "e002",
+            "name": "麝香蛋龟",
+            "tType": "waterTurtle",
+            "tClass": "egg"
+        },{
+            "id": "e003",
+            "name": "红面泥龟",
+            "tType": "waterTurtle",
+            "tClass": "egg"
+        },{
+            "id": "e004",
+            "name": "剃刀蛋龟",
+            "tType": "waterTurtle",
+            "tClass": "egg"
+        },{
+            "id": "e005",
+            "name": "果核泥龟",
+            "tType": "waterTurtle",
+            "tClass": "egg"
+        },{
+            "id": "s001",
+            "name": "真鳄龟",
+            "tType": "waterTurtle",
+            "tClass": "Snapping"
+        },{
+            "id": "s002",
+            "name": "北美拟鳄龟",
+            "tType": "waterTurtle",
+            "tClass": "Snapping"
+        },{
+            "id": "s003",
+            "name": "佛州拟鳄龟",
+            "tType": "waterTurtle",
+            "tClass": "Snapping"
+        },{
+            "id": "s004",
+            "name": "南美拟鳄龟",
+            "tType": "waterTurtle",
+            "tClass": "Snapping"
+        },{
+            "id": "s005",
+            "name": "中美拟鳄龟",
+            "tType": "waterTurtle",
+            "tClass": "Snapping"
+        }]
+    }
+}
+

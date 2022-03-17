@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 2630285 */
+  src: url('iconfont.woff2?t=1638512885030') format('woff2'),
+       url('iconfont.woff?t=1638512885030') format('woff'),
+       url('iconfont.ttf?t=1638512885030') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.turtle-fanhui:before {
+  content: "\e685";
+}
+
+.turtle-tianjia:before {
+  content: "\e6a6";
+}
+
+.turtle-shouye:before {
+  content: "\e600";
+}
+
+.turtle-baike:before {
+  content: "\e626";
+}
+
+.turtle-sousuo:before {
+  content: "\e8b9";
+}
+
+.turtle-xin:before {
+  content: "\e6b3";
+}
+
+.turtle-xiaoxi:before {
+  content: "\e624";
+}
+
+.turtle-renyuan:before {
+  content: "\e653";
+}
+
+.turtle-geren:before {
+  content: "\e646";
+}
+
+.turtle--wugui:before {
+  content: "\e613";
+}
+
+.turtle-chanpinbaike:before {
+  content: "\e603";
+}
+
