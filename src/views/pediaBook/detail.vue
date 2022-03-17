@@ -23,7 +23,8 @@
 <script lang="ts">
 import { defineComponent } from "vue";
 import lukeHeader from '@/components/header/index.vue';
-import { getCurrentInstance } from "vue"
+import { getCurrentInstance } from "vue";
+const pediaJson = require('../../assets/json/pedia.json');
 export default defineComponent({
     name: "pediaBook",
     data() {
@@ -54,17 +55,21 @@ export default defineComponent({
     },
     mounted() {
         // 使用getCurrentInstance方法获取当前vdom实例
-        const axios = getCurrentInstance()?.appContext.config.globalProperties.$axios
-        const res = axios.request({
-            url: '/json/pedia.json',
-            method: 'get',
-            data: ""
-        }).then((res)=>{
-            let data = JSON.parse(JSON.stringify(res.data));
-            this.topList = data.topList;
-            this.classList = data.allList.classlist;
-            this.detailList = data.allList.detailList;
-        })
+        // const axios = getCurrentInstance()?.appContext.config.globalProperties.$axios
+        // const res = axios.request({
+        //     url: '/json/pedia.json',
+        //     method: 'get',
+        //     data: ""
+        // }).then((res)=>{
+        //     let data = JSON.parse(JSON.stringify(res.data));
+        //     this.topList = data.topList;
+        //     this.classList = data.allList.classlist;
+        //     this.detailList = data.allList.detailList;
+        // })
+
+        this.topList = pediaJson.topList;
+        this.classList = pediaJson.allList.classlist;
+        this.detailList = pediaJson.allList.detailList;
     },
     methods: {
         topTab(data,ind,type) {
